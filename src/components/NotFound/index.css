@@ -1,0 +1,20 @@
+.heading {
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+
+.para {
+  color: #dcdcdc;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not {
+  width: 400px;
+}

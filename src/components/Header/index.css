@@ -1,0 +1,53 @@
+.header-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 60px;
+}
+.close {
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  width: 100vw;
+  list-style: none;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.nav-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 26px;
+  color: #000000;
+}
+
+.para {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 30px;
+  padding-left: 10px;
+}
